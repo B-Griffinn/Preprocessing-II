@@ -187,37 +187,6 @@ nav a {
   font-size: 1.6rem;
   padding: 20px;
 }
-header {
-  width: 100%;
-}
-header .head-div {
-  border-bottom: 2px dashed lightgray;
-  display: flex;
-  justify-content: space-around;
-  margin-top: 2%;
-  margin-left: 4.5%;
-  padding: 1%;
-  color: black;
-}
-header nav {
-  margin-right: 5%;
-}
-.fun-bus-img {
-  width: 58%;
-  margin-left: 20%;
-}
-.header-h-p {
-  width: 58%;
-  margin-left: 20%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  flex-wrap: wrap;
-  border-bottom: 2px dashed lightgray;
-}
-.header-h-p p {
-  margin-bottom: 2%;
-}
 .home .content-section {
   margin: 30px 0;
   display: flex;
@@ -264,6 +233,37 @@ header nav {
   width: 30%;
   margin-bottom: 30px;
 }
+header {
+  width: 100%;
+}
+header .head-div {
+  border-bottom: 2px dashed lightgray;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2%;
+  margin-left: 4.5%;
+  padding: 1%;
+  color: black;
+}
+header nav {
+  margin-right: 5%;
+}
+.fun-bus-img {
+  width: 58%;
+  margin-left: 20%;
+}
+.header-h-p {
+  width: 58%;
+  margin-left: 20%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-bottom: 2px dashed lightgray;
+}
+.header-h-p p {
+  margin-bottom: 2%;
+}
 .content-section {
   margin-top: 1%;
   width: 58%;
@@ -295,18 +295,22 @@ header nav {
   margin-top: 1%;
   margin-left: 20%;
   display: flex;
+  justify-content: space-between;
   line-height: 1.65;
 }
 .destination {
-  border: 1px solid blue;
+  max-width: 25%;
 }
 .btn > button {
-  border: 1px solid red;
+  width: 70%;
+  margin: 5% 0%;
+  font-size: 1.8rem;
+  padding: 8px 35px;
+  border-radius: 15px;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
   color: white;
   background: #008080;
-  padding: 1% 2%;
-  margin: 1% 5%;
+}
+.footer {
+  margin: 1% 0;
 }
